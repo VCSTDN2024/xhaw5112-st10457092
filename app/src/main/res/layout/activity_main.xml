@@ -1,0 +1,48 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#FFFFE0"
+    android:gravity="center">
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="311dp"
+        android:contentDescription="Company Logo"
+        android:src="@drawable/logo_image" />
+
+    <TextView
+        android:id="@+id/companyName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Empowering The Nation"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:layout_marginTop="16dp" />
+
+    <TextView
+        android:id="@+id/briefExplanation"
+        android:layout_width="wrap_content"
+        android:layout_height="186dp"
+        android:layout_marginTop="16dp"
+        android:text="Helps to provide skills training for domestic workers and gardeners and the training provides up-skills to make them more marketable when seeking employment and enables them to be paid at a higher rate because of these additional skills."
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/exitButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="Exit" />
+
+    <Button
+        android:id="@+id/proceedButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:text="Proceed" />
+</LinearLayout>

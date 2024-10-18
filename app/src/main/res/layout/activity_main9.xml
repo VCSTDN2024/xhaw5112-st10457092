@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#FFFFE0"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/courseDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details of Cooking as one of the six-week courses"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="160dp"
+        android:contentDescription="Company Logo"
+        android:src="@drawable/cooking_image" />
+
+    <TextView
+        android:id="@+id/courseDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose: To prepare and cook nutritious family meals."
+        android:textSize="25dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/courseDetail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nutritional requirements for a healthy body, Types of protein; carbohydrates and vegetables, Planning meals, Preparation and cooking of meals."
+        android:textSize="25dp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="365dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@color/black"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/proceedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Proceed"
+            android:backgroundTint="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+</LinearLayout>

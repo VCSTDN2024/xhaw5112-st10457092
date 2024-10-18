@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADD8E6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/courseDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details of First Aid as one of the six-month courses"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="155dp"
+        android:contentDescription="Company Logo"
+        android:src="@drawable/first_aid_kit" />
+
+    <TextView
+        android:id="@+id/courseDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose: To provide first aid awareness and basic life support"
+        android:textSize="25dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/courseDetails2"
+        android:layout_width="wrap_content"
+        android:layout_height="148dp"
+        android:layout_marginBottom="16dp"
+        android:textSize="25dp"
+        android:text="Wounds and bleeding, Burns and fractures, Respiratory distress e.g., Choking, blocked airway. Emergency scene management and Cardio-Pulmonary Resuscitation (CPR)" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="385dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:backgroundTint="@color/black"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/proceedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="25dp"
+            android:backgroundTint="@color/black"
+            android:text="Proceed" />
+    </LinearLayout>
+
+</LinearLayout>

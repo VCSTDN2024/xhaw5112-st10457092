@@ -1,0 +1,63 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADD8E6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/courseDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Details of Garden Maintenance as one of the six-week courses"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="159dp"
+        android:contentDescription="Company Logo"
+        android:src="@drawable/garden_maintanence2" />
+
+    <TextView
+        android:id="@+id/courseDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Purpose: To provide basic knowledge of watering, pruning and planting in a domestic garden."
+        android:textSize="22dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/courseDetail2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Water restrictions and the watering requirments of indigenous and exotic plants, Pruning and propagation of plants , Planting techniques for different plant types."
+        android:textSize="22dp"
+        android:layout_marginBottom="16dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="254dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="25dp"
+            android:backgroundTint="@color/black"
+            android:text="Back" />
+
+        <Button
+            android:id="@+id/proceedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:textSize="25dp"
+            android:backgroundTint="@color/black"
+            android:text="Proceed" />
+    </LinearLayout>
+</LinearLayout>

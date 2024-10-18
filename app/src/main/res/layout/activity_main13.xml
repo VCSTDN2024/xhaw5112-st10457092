@@ -1,0 +1,122 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFE0"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/companyDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Company Details"
+        android:textSize="28dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/tvCompanyPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Telephone Number: 083 493 6559"
+        android:textSize="25dp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/tvCompanyEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Email: PowertheNation@gmail.com"
+        android:textSize="24dp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/tvCompanyAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="1315 Wit Road, Johannesburg, South Africa"
+        android:textSize="25dp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/tvViewLocation2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:paddingBottom="24dp"
+        android:text="View Location on GPS"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvCompanyAddress2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="Address: 14, Bonanza City: Crown, Gauteng, South Africa"
+        android:textSize="25dp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/tvViewLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:paddingBottom="24dp"
+        android:text="View Location on GPS"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvCompanyAddress3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="16dp"
+        android:text="17 Friesland Crescent Street, Johannesburg, South Africa"
+        android:textSize="25dp"
+        android:textStyle="normal|italic" />
+
+    <TextView
+        android:id="@+id/tvViewLocation3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:clickable="true"
+        android:focusable="true"
+        android:minHeight="48dp"
+        android:paddingBottom="24dp"
+        android:text="View Location on GPS"
+        android:textColor="@android:color/holo_blue_light"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="134dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="16dp"
+        android:backgroundTint="@color/black"
+        android:padding="16dp"
+        android:text="Back"
+        android:textSize="25dp" />
+
+
+    <Button
+        android:id="@+id/btnExit"
+        android:layout_width="119dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/black"
+        android:minHeight="48dp"
+        android:padding="16dp"
+        android:text="Exit"
+        android:textSize="25dp" />
+
+</LinearLayout>

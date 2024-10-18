@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADD8E6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/courseDetail"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:textStyle="bold"
+        android:text="Details of Landscaping as one of the six-month courses"
+        android:textSize="25dp" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:layout_width="wrap_content"
+        android:layout_height="164dp"
+        android:contentDescription="Company Logo"
+        android:src="@drawable/landscaping_image" />
+
+    <TextView
+        android:id="@+id/courseDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="56dp"
+        android:layout_marginBottom="16dp"
+        android:text="Purpose: To provide landscaping services for new and established gardens"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/courseDetail2"
+        android:layout_width="wrap_content"
+        android:layout_height="252dp"
+        android:layout_marginBottom="16dp"
+        android:text="Indigenous and exotic plants and trees, Fixed structures (fountains, statues, benches, tables, built-in braai), Balancing of plants and trees in a garden, Aesthetics of plant shapes and colours, Garden layout."
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="380dp"
+        android:layout_height="77dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@color/black"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/proceedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Proceed"
+            android:backgroundTint="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+</LinearLayout>

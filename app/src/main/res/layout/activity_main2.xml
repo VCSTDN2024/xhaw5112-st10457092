@@ -1,0 +1,70 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ADD8E6"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/courseSummary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Six-month courses"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/course1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First Aid"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/course2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Sewing" />
+
+    <TextView
+        android:id="@+id/course3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Landscaping" />
+
+
+    <TextView
+        android:id="@+id/course4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Life Skills"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="461dp"
+        android:layout_marginTop="24dp"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/backButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back"
+            android:backgroundTint="@color/black"
+            android:textSize="25dp" />
+
+        <Button
+            android:id="@+id/proceedButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:text="Proceed"
+            android:backgroundTint="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+</LinearLayout>

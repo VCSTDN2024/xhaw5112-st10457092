@@ -1,0 +1,101 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#ADD8E6"
+    tools:context=".MainActivity12">
+
+
+    <TextView
+        android:id="@+id/tvName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Name: " />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Email: " />
+
+    <TextView
+        android:id="@+id/tvPhone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Phone: " />
+
+    <TextView
+        android:id="@+id/tvCourses"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Courses: " />
+
+    <TextView
+        android:id="@+id/tvVat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="VAT already added"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/tvTotalPriceWithoutDiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price Without Discount:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvTotalPriceWithDiscount"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Price With Discount:"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/tvDiscountPercentage"
+        android:layout_width="wrap_content"
+        android:layout_height="111dp"
+        android:text="Discount Percentage:"
+        android:textSize="25dp" />
+
+    <LinearLayout
+        android:layout_width="411dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btnHome"
+            android:layout_width="170dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="16dp"
+            android:backgroundTint="@color/black"
+            android:text="Home"
+            android:textSize="25dp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnBackToForm"
+        android:layout_width="163dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="Back"
+        android:textSize="25dp" />
+
+    <Button
+        android:id="@+id/btnProceedToNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:backgroundTint="@color/black"
+        android:text="Proceed"
+        android:textSize="25dp" />
+</LinearLayout>
